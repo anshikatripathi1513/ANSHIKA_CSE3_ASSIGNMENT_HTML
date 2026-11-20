@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 11 - Accessibility</title>
+</head>
+<body>
+    <a href="#main-content">Skip to main content</a>
+    
+    <nav aria-label="Main Navigation">
+        <a href="#">Home</a>
+        <a href="#">Help</a>
+    </nav>
+
+    <main id="main-content">
+        <h1>Accessible Page</h1>
+
+        <img src="banner.jpg" alt="College welcome banner" width="250" height="20">
+        <button aria-label="Close">X</button>
+
+        <br><br>
+
+        <form role="search">
+            <label for="search-input">Search:</label>
+            <input type="text" id="search-input" name="search">
+        </form>
+    </main>
+</body>
+</html>
